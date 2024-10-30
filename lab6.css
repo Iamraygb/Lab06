@@ -1,0 +1,240 @@
+.static-box{
+    position: static;
+    background-color: antiquewhite;
+    width:200px;
+    height:200px;
+    border:1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.relative-box{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 20px;
+    z-index: 1;
+}
+.absolute-box{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background-color: rgb(207, 163, 163);
+    width: 150px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+}
+.fixed-box{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: lightgoldenrodyellow;
+    width: 150px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+}
+.sticky-box{
+    position: sticky;
+    top: 0;
+    background-color: lightblue;
+    width: 100vw;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+.content{
+    padding: 20px;
+}
+.background-image{
+    width: 300px;
+    height: 300px;
+    background-image: url(/4CADs\ &\ YouthT\ Logo.png);
+    background-size: cover;
+    border: 1px solid black;
+    background-position: center;
+    text-align: center;
+}
+.background-image-repeat{
+    width: 700px;
+    height: 700px;
+    background-image: url(Podcast\ Trailer\ Maker\ 1\ \(Instagram\ Post\)\ \(1\).png);
+    background-repeat: repeat;
+    background-size: auto;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: larger;
+    font-weight:bold ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    position: absolute;
+    z-index: 1;
+    background-color: beige;
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+.box2{
+    position: absolute;
+    background-color: rgb(100, 189, 173);
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    border: 1px solid darkblue;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    border: 1px solid darkblue;
+}
+.flex-container3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 10px;
+    width: 100vh;
+    height: 50px;
+}
+.flex-item3{
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    border: 1px solid darkblue;
+}
+.flex-container4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+    width: 100px;
+    height:400px;
+}
+.flex-item4{
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    border: 1px solid darkblue;
+}
+.flex-container5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #333;
+    padding: 10px;
+    width: 100vw;
+    height: 200px;
+}
+.flex-item5{
+    width: 100px;
+    height: 40px;
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid darkblue;
+}
+.flex-item6{
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid darkblue;
+}
+.flex-item7{
+    width: 100px;
+    height: 60px;
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid darkblue;
+}
+.flex-container6{
+    align-content:space-evenly;
+    background-color: #333;
+    padding: 10px;
+    height:600px;
+    border: 1px solid black;
+}
+.flex-item8{
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(229, 66, 178);
+    color: black;
+   margin: 5px;
+    border: 1px solid darkblue;
+}
+.flex-container9{
+    display: flex;
+    background-color: rgb(183, 237, 237);
+    border: 1px  solid black;
+    padding: 10px;
+}
+.flex-item911{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height:100px;
+    background-color: rgb(66, 229, 147);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    border: 1px solid darkblue;
+    flex-grow: 1;
+}
+.flex-item10{
+    flex-grow: 2;
+    background-color: rgb(66, 229, 147);
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
